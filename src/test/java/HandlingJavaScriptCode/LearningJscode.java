@@ -43,6 +43,8 @@ public static void main(String[] args) {
     jseobj.executeScript("window.scrollBy(0,300)"); //y for vertical x for horizontal
     //Scroll To . it always start from the origin
     jseobj.executeScript("window.scrollTo(0,300)");
+   
+    System.out.println("");
     
 }
 }
