@@ -24,7 +24,7 @@ public static void main(String[] args) {
 	act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
 	act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
 	
-	//we can give the keys tab in sendkeys instead of 6 lines like(sendKeys(keys.tab,keys.tab,keys.tab,keys.tab,keys.tab,keys.tab,"book",keys.Enter)
+	//we can give the keys tab in send keys instead of 6 lines like(sendKeys(keys.tab,keys.tab,keys.tab,keys.tab,keys.tab,keys.tab,"book",keys.Enter)
 	act.sendKeys("book",Keys.ENTER).perform();
 	
 	
