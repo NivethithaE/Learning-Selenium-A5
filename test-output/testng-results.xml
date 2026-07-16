@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Dosa]]>
+    </line>
+    <line>
+      <![CDATA[Dosa]]>
+    </line>
+    <line>
+      <![CDATA[Dosa]]>
+    </line>
+    <line>
+      <![CDATA[Dosa+chicken]]>
+    </line>
+    <line>
+      <![CDATA[Dosa+chicken]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-07-16T12:01:39 IST" name="Default suite" finished-at="2026-07-16T12:01:39 IST" duration-ms="116">
+    <groups>
+    </groups>
+    <test started-at="2026-07-16T12:01:39 IST" name="Default test" finished-at="2026-07-16T12:01:39 IST" duration-ms="116">
+      <class name="LearningTestNG.DailyRoutine_Flags">
+        <test-method signature="breakfast()[pri:1, instance:LearningTestNG.DailyRoutine_Flags@a1153bc]" started-at="2026-07-16T12:01:39 IST" name="breakfast" finished-at="2026-07-16T12:01:39 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dosa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- breakfast -->
+        <test-method signature="breakfast()[pri:1, instance:LearningTestNG.DailyRoutine_Flags@a1153bc]" started-at="2026-07-16T12:01:39 IST" name="breakfast" finished-at="2026-07-16T12:01:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dosa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- breakfast -->
+        <test-method signature="breakfast()[pri:1, instance:LearningTestNG.DailyRoutine_Flags@a1153bc]" started-at="2026-07-16T12:01:39 IST" name="breakfast" finished-at="2026-07-16T12:01:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dosa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- breakfast -->
+        <test-method signature="chicken()[pri:2, instance:LearningTestNG.DailyRoutine_Flags@a1153bc]" started-at="2026-07-16T12:01:39 IST" name="chicken" finished-at="2026-07-16T12:01:39 IST" depends-on-methods="LearningTestNG.DailyRoutine_Flags.breakfast" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dosa+chicken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chicken -->
+        <test-method signature="chicken()[pri:2, instance:LearningTestNG.DailyRoutine_Flags@a1153bc]" started-at="2026-07-16T12:01:39 IST" name="chicken" finished-at="2026-07-16T12:01:39 IST" depends-on-methods="LearningTestNG.DailyRoutine_Flags.breakfast" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dosa+chicken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chicken -->
+      </class> <!-- LearningTestNG.DailyRoutine_Flags -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
